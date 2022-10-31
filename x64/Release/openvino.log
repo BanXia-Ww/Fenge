@@ -1,0 +1,57 @@
+﻿  main.cpp
+C:\Program Files (x86)\Intel\openvino_2022.1.0.643\runtime\include\ie\ie_common.h(297,33): warning C4275: 非 dll 接口 class“std::runtime_error”用作 dll 接口 struct“InferenceEngine::details::InferenceEngineException”的基
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdexcept(101): message : 参见“std::runtime_error”的声明
+C:\Program Files (x86)\Intel\openvino_2022.1.0.643\runtime\include\ie\ie_common.h(296): message : 参见“InferenceEngine::details::InferenceEngineException”的声明
+C:\Program Files (x86)\Intel\openvino_2022.1.0.643\runtime\include\ie\ie_layouts.h(145,16): warning C4251: “InferenceEngine::BlockingDesc::blockedDims”: class“std::vector<size_t,std::allocator<size_t>>”需要有 dll 接口由 class“InferenceEngine::BlockingDesc”的客户端使用
+C:\environment\opencv\build\include\opencv2\core\mat.hpp(2723): message : 参见“std::vector<size_t,std::allocator<size_t>>”的声明
+C:\Program Files (x86)\Intel\openvino_2022.1.0.643\runtime\include\ie\ie_layouts.h(147,16): warning C4251: “InferenceEngine::BlockingDesc::strides”: class“std::vector<size_t,std::allocator<size_t>>”需要有 dll 接口由 class“InferenceEngine::BlockingDesc”的客户端使用
+C:\environment\opencv\build\include\opencv2\core\mat.hpp(2723): message : 参见“std::vector<size_t,std::allocator<size_t>>”的声明
+C:\Program Files (x86)\Intel\openvino_2022.1.0.643\runtime\include\ie\ie_layouts.h(149,16): warning C4251: “InferenceEngine::BlockingDesc::order”: class“std::vector<size_t,std::allocator<size_t>>”需要有 dll 接口由 class“InferenceEngine::BlockingDesc”的客户端使用
+C:\environment\opencv\build\include\opencv2\core\mat.hpp(2723): message : 参见“std::vector<size_t,std::allocator<size_t>>”的声明
+C:\Program Files (x86)\Intel\openvino_2022.1.0.643\runtime\include\ie\ie_layouts.h(152,16): warning C4251: “InferenceEngine::BlockingDesc::offsetPaddingToData”: class“std::vector<size_t,std::allocator<size_t>>”需要有 dll 接口由 class“InferenceEngine::BlockingDesc”的客户端使用
+C:\environment\opencv\build\include\opencv2\core\mat.hpp(2723): message : 参见“std::vector<size_t,std::allocator<size_t>>”的声明
+C:\Program Files (x86)\Intel\openvino_2022.1.0.643\runtime\include\ie\ie_layouts.h(326,16): warning C4251: “InferenceEngine::TensorDesc::dims”: class“std::vector<size_t,std::allocator<size_t>>”需要有 dll 接口由 class“InferenceEngine::TensorDesc”的客户端使用
+C:\environment\opencv\build\include\opencv2\core\mat.hpp(2723): message : 参见“std::vector<size_t,std::allocator<size_t>>”的声明
+C:\Program Files (x86)\Intel\openvino_2022.1.0.643\runtime\include\ie\ie_layouts.h(330,15): warning C4251: “InferenceEngine::TensorDesc::precision”: class“InferenceEngine::Precision”需要有 dll 接口由 class“InferenceEngine::TensorDesc”的客户端使用
+C:\Program Files (x86)\Intel\openvino_2022.1.0.643\runtime\include\ie\ie_precision.hpp(23): message : 参见“InferenceEngine::Precision”的声明
+C:\Program Files (x86)\Intel\openvino_2022.1.0.643\runtime\include\ie\ie_compound_blob.h(113,28): warning C4251: “InferenceEngine::CompoundBlob::_blobs”: class“std::vector<InferenceEngine::Blob::Ptr,std::allocator<InferenceEngine::Blob::Ptr>>”需要有 dll 接口由 class“InferenceEngine::CompoundBlob”的客户端使用
+C:\Program Files (x86)\Intel\openvino_2022.1.0.643\runtime\include\ie\ie_compound_blob.h(42): message : 参见“std::vector<InferenceEngine::Blob::Ptr,std::allocator<InferenceEngine::Blob::Ptr>>”的声明
+C:\Program Files (x86)\Intel\openvino_2022.1.0.643\runtime\include\ie\ie_data.h(160,27): warning C4251: “InferenceEngine::Data::_impl”: class“std::shared_ptr<InferenceEngine::Data::Impl>”需要有 dll 接口由 class“InferenceEngine::Data”的客户端使用
+C:\Program Files (x86)\Intel\openvino_2022.1.0.643\runtime\include\ie\ie_data.h(160): message : 参见“std::shared_ptr<InferenceEngine::Data::Impl>”的声明
+C:\Program Files (x86)\Intel\openvino_2022.1.0.643\runtime\include\ie\ie_data.h(166,17): warning C4251: “InferenceEngine::Data::name”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“InferenceEngine::Data”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+F:\Demo_fenge\openvino\main.cpp(64,38): warning C4267: “参数”: 从“size_t”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+F:\Demo_fenge\openvino\main.cpp(67,38): warning C4267: “参数”: 从“size_t”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+F:\Demo_fenge\openvino\main.cpp(83,81): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\Demo_fenge\openvino\main.cpp(83,85): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\Demo_fenge\openvino\main.cpp(156,7): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\Demo_fenge\openvino\main.cpp(157,44): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\Demo_fenge\openvino\main.cpp(159,21): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\Demo_fenge\openvino\main.cpp(164,11): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\Demo_fenge\openvino\main.cpp(166,45): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\Demo_fenge\openvino\main.cpp(167,22): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\Demo_fenge\openvino\main.cpp(290,24): warning C4244: “初始化”: 从“double”转换到“long”，可能丢失数据
+F:\Demo_fenge\openvino\main.cpp(318,26): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+F:\Demo_fenge\openvino\main.cpp(319,27): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+F:\Demo_fenge\openvino\main.cpp(439,40): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码
+  Not all modules are compiled with -Gy (function comdat), build without incremental LTCG.
+F:\Demo_fenge\openvino\main.cpp(454): warning C4715: “getFileName”: 不是所有的控件路径都返回值
+  已完成代码的生成
+  openvino.vcxproj -> F:\Demo_fenge\openvino\x64\Release\openvino.exe

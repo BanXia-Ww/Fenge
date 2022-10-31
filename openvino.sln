@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "openvino", "openvino.vcxproj", "{163BB8F2-27E2-4F87-8D97-548710FE7AD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{163BB8F2-27E2-4F87-8D97-548710FE7AD0}.Debug|x64.ActiveCfg = Debug|x64
+		{163BB8F2-27E2-4F87-8D97-548710FE7AD0}.Debug|x64.Build.0 = Debug|x64
+		{163BB8F2-27E2-4F87-8D97-548710FE7AD0}.Debug|x86.ActiveCfg = Debug|Win32
+		{163BB8F2-27E2-4F87-8D97-548710FE7AD0}.Debug|x86.Build.0 = Debug|Win32
+		{163BB8F2-27E2-4F87-8D97-548710FE7AD0}.Release|x64.ActiveCfg = Release|x64
+		{163BB8F2-27E2-4F87-8D97-548710FE7AD0}.Release|x64.Build.0 = Release|x64
+		{163BB8F2-27E2-4F87-8D97-548710FE7AD0}.Release|x86.ActiveCfg = Release|Win32
+		{163BB8F2-27E2-4F87-8D97-548710FE7AD0}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C91A7A74-991C-4CC3-A42B-9B3D83D75A2C}
+	EndGlobalSection
+EndGlobal
